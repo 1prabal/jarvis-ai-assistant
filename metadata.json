@@ -1,0 +1,10 @@
+{
+  "name": "AI Voice Assistant",
+  "description": "A voice-activated AI assistant created by Prabal. Interact with a witty, intelligent AI using your voice and camera.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "display-capture"
+  ],
+  "prompt": ""
+}
