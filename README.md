@@ -47,36 +47,35 @@ To get a local copy up and running, follow these simple steps.
 Prerequisites
 Make sure you have Node.js and npm installed on your machine.
 
-npm
+**npm installation**
 
-npm install npm@latest -g
+`npm install npm@latest -g`
 
-Installation
-Clone the repo
+**Clone the repo**
 
-git clone [https://github.com/1prabal/jarvis-ai-assistant.git](https://github.com/1prabal/jarvis-ai-assistant.git)
+`git clone [https://github.com/1prabal/jarvis-ai-assistant.git]`
 
-Navigate to the project directory
+**Navigate to the project directory**
 
-cd jarvis-ai-assistant
+`cd jarvis-ai-assistant`
 
-Install NPM packages
+**Install NPM packages**
 
-npm install
+`npm install`
 
-Environment Variables
+**Environment Variables**
 You'll need to set up your environment variables to connect to the Gemini API.
 
-Create a .env.local file in the root of the project.
+Create a `.env.local` file in the root of the project.
 
 Add your API key to the file:
 
-VITE_GEMINI_API_KEY=YOUR_API_KEY_HERE
+`VITE_GEMINI_API_KEY=YOUR_API_KEY_HERE`
 
 Running the Application
 Once the installation is complete and environment variables are set, you can run the development server:
 
-npm run dev
+**`npm run dev`**
 
 This will start the application on http://localhost:5173 (or another port if 5173 is busy).
 
